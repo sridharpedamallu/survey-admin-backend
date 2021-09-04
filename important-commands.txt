@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name Users --attributes first_name:string,is_active:boolean
+npx sequelize-cli db:migrate:undo:all
+npx sequelize-cli db:migrate
